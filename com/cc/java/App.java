@@ -9,17 +9,17 @@ public class App {
 		
 		// // ArrayList (AL) anlegen ...
 		
-		// ArrayList<String> carMakers = new ArrayList<>();
+		 ArrayList<String> carMakers = new ArrayList<>();
 		
-		// System.out.println(carMakers);
-		// System.out.println(carMakers.size());
+		 System.out.println(carMakers);
+		 System.out.println(carMakers.size());
 		
 		// // AL dynamisch füllen (JS --> push() / J --> add())
-		// carMakers.add("Volvo");
-		// carMakers.add("BMW");
-		// carMakers.add("Ford");
-		// carMakers.add("Honda");
-		// carMakers.add("Tesla");
+		 carMakers.add("Volvo");
+		 carMakers.add("BMW");
+		 carMakers.add("Ford");
+		 carMakers.add("Honda");
+		 carMakers.add("Tesla");
 		
 		// System.out.println(carMakers);
 		// System.out.println(carMakers.size());
@@ -48,12 +48,12 @@ public class App {
 		// carMakers.set(1, "MB");
 		// System.out.println(carMakers);
 		
-		// System.out.println("");
-		// System.out.println("-------- sortiert: ------------");
+		 System.out.println("");
+		 System.out.println("-------- sortiert: ------------");
 		
-		// Collections.sort(carMakers);
-		// System.out.println(carMakers);
-		// System.out.println(carMakers.get(0));
+		 Collections.sort(carMakers);
+		 System.out.println(carMakers);
+		 System.out.println(carMakers.get(0));
 		
 		// // Daten entfernen (JS --> pop(); J --> remove())
 		
@@ -70,7 +70,7 @@ public class App {
 		// System.out.println("-------Thema: Wrapper -------------");
 		
 		// // ArrayList<String> strList = new ArrayList<>();
-		// // ArrayList<int> intList = new ArrayList<>();
+		  ArrayList<Integer> intList = new ArrayList<>();
 		// // Lösung: Wrapper
 		
 
